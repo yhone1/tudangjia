@@ -1,0 +1,49 @@
+<!--template/bannertemp.wxml-->
+<template name="myBanner">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color='{{inColor}}' indicator-active-color='{{inAcColor}}'>
+    <block wx:for="{{imgUrls}}" wx:key>
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view id="btnChoice">
+    <view bindtap='huoguo'>
+      <image src='../../images/huoguo.png'></image>
+      <text>精品火锅</text>
+    </view>
+    <view bindtap='xiaochi'>
+      <image src='../../images/xiaochi.png'></image>
+      <text>精美小食</text>
+    </view>
+    <view bindtap='yinliao'>
+      <image src='../../images/jiushui.png'></image>
+      <text>佐餐佳饮</text>
+    </view>
+    <view bindtap='taocan'>
+      <image src='../../images/taocan.png'></image>
+      <text>超值套餐</text>
+    </view>
+  </view>
+</template>
+<template name="myFood">
+  <view id="foodChoice">
+    <view class='myFoods' wx:for="{{myfoods}}" data-id='{{index}}' bindtap='mydetail' wx:key>
+      <image class='foodPic' src='{{item.foodPic}}' mode='widthFix'></image>
+      <text class='foodName'>{{item.foodName}}</text>
+      <text class='foodPrice'>￥{{item.foodPrice}}/{{item.foodunit}}</text>
+    </view>
+  </view>
+</template>
+<template name="youhuiquan">
+  <block wx:for="{{myyouhui}}" wx:key="myquan">
+    <view class="myY">
+      <image src="../../images/wodeyouhui.png"></image>
+      <text class="wel">客官大人，一张优惠券奉上，聊表心意~</text>
+      <text class="jine">{{item.jine}} 元</text>
+      <text class="manjian">满{{item.manjian}}元可用</text>
+      <text class="youxiao">有效时间：{{item.kaishi}}至{{item.jiesu}}</text>
+    </view>
+  </block>
+
+</template>

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/order/order",
+    "pages/youhui/youhui",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "two",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/icon/shouye.png",
+        "selectedIconPath": "images/icon/shouye1.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "下单",
+        "iconPath": "images/icon/xiadan.png",
+        "selectedIconPath": "images/icon/xiadan1.png"
+      },
+      {
+        "pagePath": "pages/youhui/youhui",
+        "text": "优惠券",
+        "iconPath": "images/icon/youhui.png",
+        "selectedIconPath": "images/icon/youhui1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人中心",
+        "iconPath": "images/icon/geren.png",
+        "selectedIconPath": "images/icon/geren1.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#FFA500"
+  }
+}

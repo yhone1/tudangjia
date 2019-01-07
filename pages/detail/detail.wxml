@@ -1,0 +1,22 @@
+<!--pages/detail/detail.wxml-->
+<image src='{{pic}}' id='myPic'></image>
+
+<view>
+  <text id='myName'>{{name}}</text>
+  <text id='myPrice'>￥{{price}}元/{{unit}}</text>
+</view>
+<view id='miaoshu'>
+  <text id='discribe'>产品描述：</text>
+</view>
+<view id='xiangqing'>
+  <text id='discribe2'>{{discribe}}</text>
+</view>
+<view id='tianjia'>
+  <view id='shuliang'>购买数量：</view>
+  <view id='shu'>
+    <text bindtap='jianshu'>-</text>
+    <text>{{shu}}</text>
+    <text bindtap='jiashu'>+</text>
+  </view>
+  <button id='tiancar' bindtap='tian'>加入购物车</button>
+</view>

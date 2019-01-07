@@ -1,0 +1,195 @@
+/* pages/order/order.wxss */
+
+page {
+  height: 100%;
+}
+
+/* 通知 */
+
+#header {
+  width: 100%;
+  height: 15%;
+  overflow: hidden;
+  /* border: 1px red solid; */
+}
+
+#body {
+  height: 80%;
+}
+
+
+.tongzhi {
+  background-color: rgba(0, 0, 0, 0.603);
+  height: 80px;
+  width: 5%;
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 10px;
+  text-align: center;
+  /* border: 1px red solid; */
+}
+
+.tongzhi image {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+
+.tongzhi text {
+  vertical-align: top;
+  display: inline-block;
+  height: 20px;
+  margin-left: 10px;
+  line-height: 20px;
+  color: white;
+}
+
+/* 选择项 */
+
+#mychoice {
+  display: flex;
+  justify-content: space-between;
+  height: 5%;
+  /* border:1px red solid; */
+}
+
+#mychoice text {
+  font-size: 10px;
+  color: rgb(87, 87, 87);
+  display: inline-block;
+  width: 33%;
+  height: 90%;
+  text-align: center;
+  line-height: 140%;
+  /* border:1px red solid; */
+}
+
+#asdf {
+  border-bottom: 2px orange solid;
+}
+
+#fenge {
+  height: 1%;
+  background-color: rgba(128, 128, 128, 0.171);
+}
+
+/* 详情页面 */
+
+ul {
+  width: 100%;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  height: 40px;
+  font-size: 10px;
+  font-weight: bold;
+  width: 98%;
+  line-height: 40px;
+  background-color: white;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.171);
+}
+
+
+
+#myDiscribe {
+  height: 94%;
+}
+/* 购买产品详情 */
+#listDiscribe {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.171);
+  float: left;
+}
+
+#myD {
+  height: 100%;
+  width: 75%;
+  margin-left: 25%;
+  /* float: rifht; */
+}
+
+#table {
+  height: 100%;
+}
+.quanbubtn{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.tr {
+  height: 40px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.171);
+  /* display: table-cell;
+  vertical-align: middle; */
+  width: 100%;
+  position: relative;
+}
+
+.td image {
+  width: 40px;
+  height: 40px;
+}
+
+.td {
+  display: inline-block;
+  font-size: 10px;
+  height: 40px;
+  vertical-align: top;
+  margin:0 5% 10% 0;
+
+}
+.td text{
+  display: inline-block;
+  height: 40px;
+  line-height:40px;
+  /* margin-top: 10px; */
+}
+.jiajian{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  margin: 0 4px;
+  text-align: center;
+  border:1px gainsboro solid;
+  border-radius: 10%;
+}
+.foodName{
+  width: 140rpx;
+  text-align: center;
+  overflow: hidden
+}
+.deleteThis{
+  position: absolute;
+  right:0;
+}
+/* 结账 */
+#footer{
+  height: 5%;
+  background-color: rgba(0, 0, 0, 0.603);
+  position: relative;
+}
+#carImg{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 0%;
+  left: 25px;
+  opacity: .6;
+}
+#carBtn{
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  height: 100%;
+  width: 12%;
+  text-align: center;
+  font-size: 10px;
+  background-color: rgb(190, 10, 10);
+  color: white;
+  line-height: 250%;
+}

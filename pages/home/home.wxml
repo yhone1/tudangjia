@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+<import src='../../template/mybanner'/>
+<template is="myBanner" data="{{...banners}}"/>
+<view class="fenge"></view>
+<template is="myFood" data="{{...foods}}"/>
+<view id="myEnd">已经到底啦！</view>

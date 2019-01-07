@@ -1,0 +1,3 @@
+<!--pages/youhui/youhui.wxml-->
+<import src='../../template/mybanner'/>
+<template is="youhuiquan" data="{{...youhui}}"/>

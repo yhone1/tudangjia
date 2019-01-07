@@ -1,0 +1,53 @@
+<!--pages/order/order.wxml-->
+<view id="header">
+  <view class='tongzhi'>
+    <image src='../../images/icon/tongzhi.png'></image>
+    <text>欢迎来到兔当家！</text>
+  </view>
+</view>
+<view id="body">
+  <view id='mychoice'>
+    <text id="asdf">商品</text>
+    <text>评价</text>
+    <text>商家</text>
+  </view>
+  <view id='fenge'>
+  </view>
+  <view id='myDiscribe'>
+    <view id="listDiscribe">
+      <ul wx:for="{{btnC}}">
+        <li id='{{index}}' bindtap='allBtn' data-id="{{index}}" style="{{index == id?'background:orange;':'background:white'}}">
+          <text class='quanbubtn quanbu' wx:if="{{index==clickId}}">{{item}}</text>
+          <text class='quanbubtn' wx:else>{{item}}</text>
+        </li>
+      </ul>
+    </view>
+    <view id='myD'>
+      <view id='table'>
+        <view class='tr'>
+          <view class='td'>
+            <image src='../../images/food/IMG_1302.jpg' mode='cover'></image>
+          </view>
+          <view class='td foodName'>
+            <text>招牌红锅兔</text>
+          </view>
+          <view class='td'>
+            <span class='jiajian' bindtap='jianshu'>-</span>
+            <text>{{shu}}</text>
+            <span class='jiajian' bindtap='jiashu'>+</span>
+          </view>
+          <view class='td'>
+            <text>￥88</text>
+          </view>
+          <view class='td deleteThis'>
+            <text>删除</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view id='footer'>
+  <image src='../../images/icon/car.png' id='carImg'></image>
+  <view id='carBtn'>去结算</view>
+</view>

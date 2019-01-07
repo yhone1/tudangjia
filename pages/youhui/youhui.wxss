@@ -1,0 +1,57 @@
+/* pages/youhui/youhui.wxss */
+page{
+  background-color: rgba(128, 128, 128, 0.171);
+}
+.myY{
+  position: relative;
+  width: 100%;
+  height:250px;
+  border-bottom: 1px gray dashed
+}
+.myY image{
+  width: 90%;
+  height: 94%;
+  margin: 3%;
+  position: absolute
+}
+.wel{
+  text-align: center;
+  font-size: 10px;
+  position: absolute;
+  top:80px;
+  display: inline-block;
+  width: 100%;
+}
+.jine{
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  top:110px;
+  width: 100%;
+  font-weight: bolder;
+
+}
+.manjian{
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  top:150px;
+  width: 100%;
+  font-weight: bolder;
+
+}
+.youxiao{
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  top:170px;
+  width: 100%;
+  font-weight: bolder;
+
+}

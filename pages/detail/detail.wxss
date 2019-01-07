@@ -1,0 +1,91 @@
+/* pages/detail/detail.wxss */
+
+page {
+  background-color: rgba(220, 220, 220, 0.3);
+  height: 100%;
+}
+
+view {
+  background-color: white;
+  border-top: 1px solid rgb(220, 220, 220);
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+#myPic {
+  width: 100%;
+}
+
+#myName {
+  width: 90%;
+  padding: 0 5%;
+  display: inline-block;
+  text-align: left;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+#myPrice {
+  width: 90%;
+  padding: 0 5% 1.5%;
+  display: inline-block;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bolder;
+  color: orange;
+}
+
+#discribe, #discribe2 {
+  font-size: 12px;
+  margin-left: 5%;
+  display: block;
+}
+
+#discribe2 {
+  text-indent: 2em;
+  /* margin-top: 20px; */
+}
+#miaoshu{
+  margin-top: 5px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+#xiangqing{
+  padding: 5px
+}
+#tianjia{
+  position: fixed;
+  bottom: 10px;
+  height: 40px;
+  width: 100%;
+  font-size: 12px;
+}
+#tiancar{
+  position: absolute;
+  right:0;
+  background-color: orange;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 0;
+    display: inline-block
+}
+#shu,#shuliang{
+  display: inline-block;
+  margin-top: 5px;
+}
+#shuliang{
+  border: none;
+  line-height: 30px;
+  margin-left: 5px;
+}
+#shu text{
+  outline: 1px solid rgb(220, 220, 220);
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+button{
+  font-size: 12px;
+}
